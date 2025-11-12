@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer fav items</title>
+        </head>
+        <body>
+       
+            <h4 align="center">Grooming, Books, Auto & more</h4><a href="https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN%3Aen" target="_self">Open News</a>
+               <table>
+            
+            <tr align="center" style="background-color: rgb(197, 77, 77);" >
+                    <td>
+                        <img src="https://5.imimg.com/data5/IC/OW/NU/SELLER-28635728/office-stationary.jpg" alt="error" title="Stationary" width="40%">
+                        <a href="https://www.google.com/search?q=stationery+items&sca_esv=4e076059c5272afe&rlz=1C1CHBD_enIN1097IN1097&udm=28&biw=1517&bih=685&ei=QAQNafDTL-Lz4-EPndncUQ&oq=sta&gs_lp=Ehlnd3Mtd2l6LW1vZGVsZXNzLXNob3BwaW5nIgNzdGEqAggBMgwQABiABBiKBRhDGAoyChAAGIAEGIoFGEMyChAAGIAEGIoFGEMyChAAGIAEGIoFGEMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlStQuBVY7RdwAXgBkAEAmAFdoAH-AaoBATO4AQHIAQD4AQGYAgOgApICqAIAmAMAkgcDMi4xoAfJDbIHAzIuMbgHkgLCBwUwLjEuMsgHDQ&sclient=gws-wiz-modeless-shopping" target="_self">Top Selling Stationary</a>
+                    <p>Top Selling Stationary</p>
+                    <h4>From $49</h4>
+                    
+                    </td>
+                    <td align="center">
+                    <img src="https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/plush-toys-870x425.jpg" alt="error" title="Stationary" width="40%">
+                    <p>Soft Toys</p>
+                    <h4>Up to 70% Off</h4>
+                    </td>
+                    <td align="center">
+                       <img src="https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/plush-toys-870x425.jpg" alt="error" title="Stationary" width="40%">
+                    <p>Remote Control Toys</p>
+                    <h4>Up to 80% Off</h4> 
+                    </td>
+                </tr>
+                </table>
+            </body>
+    </html>
