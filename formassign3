@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <fieldset>
+                <legend>Welcome</legend>
+        <table>
+            <tr>
+                <td width="50%"><label>First Name</label>
+                <br>
+            <input placeholder="First Name" type="text"></td>
+                 <td width="50%"><label>Last Name</label>
+                <br>
+            <input placeholder="Last Name" type="text"></td>
+            </tr>
+            <!-- <br> -->
+            <tr>
+                <td><label>Birthday</label>
+                    <br>
+                    <input placeholder="Birthday" type="date"></td>
+                    <td><label>Gender</label>
+                    <br>
+                    <input type="radio" name="gender">Male <input type="radio" name="gender">Female
+                </td>
+                </tr>
+                <!-- <br> -->
+                <tr>
+                    
+                    <td>
+                        <label>Email</label><br>
+                    <input type="email" placeholder="email">
+                    </td>
+                    <td>
+                        <label>Phone Number</label><br>
+                        <input placeholder="Phone Number" type="tel" maxlength="10">
+                    </td>
+                    </tr>
+                    <!-- <br> -->
+                    <tr>
+                        <td>
+                        <label>Subject</label><br>
+                        <select name="Choose Option">
+                            <option>Html</option>
+                            <option>Css</option>
+                            <option>bootstrap</option>
+                        </select>
+                        </td>
+                        <br>
+                        </tr>
+                        <!-- <br> -->
+                        <tr >
+                            <td>
+                            <input type="button" value="Submit" >
+                            </td>
+                        </tr>
+        </table>
+        </fieldset>
+        </form>
+    </body>
+    </html>
