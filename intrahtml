@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intra Navigation Example</title>
+</head>
+<body>
+
+  <h1>India Cricket Formats</h1>
+
+  <!-- Navigation Links -->
+  <a href="#one">India ODI Cricket</a> |
+  <a href="#two">India T20 Cricket</a> |
+  <a href="#three">India Test Cricket</a>
+
+  <hr>
+
+  <!-- ODI Section -->
+  <h2 id="one">India ODI Cricket</h2>
+  <p>
+    This article is about the men's cricketers. For the women's cricketers, see List of India women ODI cricketers.
+    A One Day International (ODI) is an international cricket match between two representative teams,
+    each having ODI status as determined by the International Cricket Council (ICC).
+  </p>
+  <p>
+    India played their first ODI in 1974 and a total of 257 players have represented the team.
+    Since 1974, India has played 1,058 ODIs, resulting in 559 victories, 445 defeats, 10 ties and 44 no results.
+    India won the Cricket World Cup twice — in 1983 and 2011 — and was runner-up in 2003 and 2023.
+  </p>
+  <p>
+    <b>Virat Kohli</b> (born 5 November 1988) is an Indian international cricketer and the former captain of the national team.
+    He is widely regarded as one of the greatest limited-overs batsmen of all time.
+  </p>
+
+  <a href="#top">Back to Top</a>
+
+  <hr>
+
+  <!-- T20 Section -->
+  <h2 id="two">India T20 Cricket</h2>
+  <p>
+    A Twenty20 International (T20I) is a form of cricket match between two representative teams,
+    each having T20I status as determined by the International Cricket Council (ICC).
+    The first such match was played between Australia and New Zealand on 17 February 2005.
+  </p>
+  <p>
+    The Indian cricket team played its first T20I match under the captaincy of Virender Sehwag during the 2006–07 series in South Africa.
+    India defeated the hosts by six wickets in the one-off match.
+  </p>
+  <p>
+    India won the inaugural ICC World Twenty20, defeating Pakistan in the final by five runs.
+  </p>
+
+  <a href="#top">Back to Top</a>
+
+  <hr>
+
+  <!-- Test Section -->
+  <h2 id="three">India Test Cricket</h2>
+  <p>
+    Test cricket is the oldest form of cricket played at international level.
+    A Test match is scheduled to take place over a period of five days,
+    and is played by teams representing full member nations of the International Cricket Council (ICC).
+  </p>
+  <p>
+    India was granted Test status in 1932, becoming the sixth nation to play Test cricket.
+  </p>
+  <p>
+    <b>Ravindra Jadeja</b> is an Indian all-rounder who bats left-handed and bowls left-arm spin.
+    He is widely regarded as one of the finest fielders and all-rounders of his generation.
+  </p>
+
+  <a href="#top">Back to Top</a>
+
+</body>
+</html>
