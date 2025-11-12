@@ -1,0 +1,45 @@
+<!-- <table frame="box" rules="all" width="40%" height="50%" align="center"> -->
+    <table border="2" align="center" height="40%">
+    <tr>
+        <th rowspan="2">Headings</th>
+        <th colspan="2">Students</th>
+        <th colspan="2">Details</th>
+    </tr>
+    
+     <tr>
+        <!-- <th></th> -->
+        <th>Id</th>
+         <th>Name</th>
+        <th>Department</th>
+        <th>Roll Number</th>
+     </tr>
+      <tr align="center">
+         <td rowspan="4">Student</td>
+        <td>1</td>
+         <td>Victor</td>
+        <td>Computer Science</td>
+        <td>12345</td>
+      </tr>
+      <tr align="center">
+         <!-- <td></td> -->
+        <td>2</td>
+         <td>Williams</td>
+        <td>Electronics</td>
+        <td>23456</td>
+       </tr>
+      <tr align="center">
+        <!-- <td></td> -->
+        <td>3</td>
+         <td>Harry</td>
+        <td>Electrical</td>
+        <td>34567</td>
+        </tr>
+      <tr align="center">
+            <!-- <td></td> -->
+        <td>4</td>
+         <td>Rick</td>
+        <td>Civil</td>
+        <td>45678</td>
+         </tr>
+
+</table>
