@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>items</title>
+    </head>
+    <body>
+        <table width="100%" >
+        <tr align="center">
+            <td width="20%" ><img src="https://media.istockphoto.com/id/171302954/photo/groceries.jpg?s=612x612&w=0&k=20&c=D3MmhT5DafwimcYyxCYXqXMxr1W25wZnyUf4PF1RYw8=" alt="error" title="groceries">
+            <h4>Groceries</h4>
+           </td>
+            <td width="20%">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIKZtg95BcJfA5z8NbBD1Bl-rAuMPVWKXfQ&s" alt="error" title="Mobile">
+                <h4>Mobiles</h4>
+            </td>
+            <td width="20%">
+                <img src="https://t3.ftcdn.net/jpg/01/91/72/42/360_F_191724216_CJMKL3xiH5tPoqYoU4RYFN3YITGHdSHg.jpg" alt="error" title="Fashion">
+                <h4>Fashion</h4>
+            </td>
+            <td width="20%">
+                <img src="https://www.shutterstock.com/image-vector/electronics-text-assorted-devices-floating-260nw-2271252449.jpg" alt="error" title="Electronics">
+                <h4>Electronics</h4>
+            </td>
+            <td width="20%">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPmwhtzlQPpXpxZRtwlkFunYGuZ1k5VtvD4w&s" alt="error" title="Electronics">
+                <h4>Home & Furniture</h4>
+            </td>
+            <td width="20%">
+                <img src="https://www.shutterstock.com/image-photo/set-home-kitchen-appliances-room-600w-2473408983.jpg" alt="error" title="Appliances">
+                <h4>Appliances</h4>
+            </td>
+            <td width="20%">
+                 <img src="https://www.savethestudent.org/uploads/flights.jpg" alt="error" title="Flight Tickets">
+                <h4>Flight Bookings</h4>
+            </td>
+            <td width="20%">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVZKiUlXe_t_KizdJBMPlUcaoEQSvqELiiw&s" alt="error" title="Beauty, Toys & More">
+                <h4>Beauty, Toys & More</h4>
+            </td>
+              <td width="20%">
+                   <img src="https://imgd.aeplcdn.com/1056x594/n/92hvehb_1868379.jpg?q=80" alt="error" title="Two Wheelers">
+                <h4>Two Wheelers</h4>
+            </td>
+        </tr>
+        </table>
+    </body>
+    </html>
