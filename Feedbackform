@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <fieldset width="60%">
+            <div width="50%">
+        <h2>Event Feedback</h2>
+        <h4>you can write anything in here about Event</h4>
+        <hr width="60%" align="left">
+        <form>
+            <label>Which event did you attend?</label><br><br>
+            <select>
+                <option>Please Select </option>
+                <option>Mathsmatics</option>
+                <option>Science</option>
+            </select><br><br>
+            <label>Overall,how entaining was the event?</label><br><br>
+            <input type="radio" name="rating"> 1 <input type="radio" name="rating"> 2 <input type="radio" name="rating"> 3 <input type="radio" name="rating"> 4 <input type="radio" name="rating"> 5 <br><br>
+            <label>After the event,how inspired did you feel?</label><br><br>
+            <input type="radio" name="rating"> 1 <input type="radio" name="rating"> 2 <input type="radio" name="rating"> 3 <input type="radio" name="rating"> 4 <input type="radio" name="rating"> 5 <br><br>
+           <label>Do you feel the day provided value for money</label><br><br>
+            <input type="radio" name="rating"> 1 <input type="radio" name="rating"> 2 <input type="radio" name="rating"> 3 <input type="radio" name="rating"> 4 <input type="radio" name="rating"> 5 <br><br>
+
+        
+        </form>
+        </div>
+        </fieldset>
+    </body>
+</html>
