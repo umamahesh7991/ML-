@@ -1,0 +1,53 @@
+function add(){
+    var x=10;
+    var y=20;
+    var z=x+y;
+    document.write(z);
+    document.write(" ");
+}
+add();
+// 
+// parameterized function
+function add1(x,y){
+    var z=x+y;
+    document.write(z+ " " );
+}
+add1(50,40);
+// reture function
+function add2(){
+    var x=100;
+    var y=200;
+    document.write("sum"+ " ");
+   return x+y;
+
+}
+ var z= add2();
+ document.write(z+ " ");
+//  anonymous function
+var text=function (){
+    var z1="hello";
+    document.write(z1+ " " );
+}
+text();
+// Arrow function
+var arrow=(x,y)=>{
+    var x=100;
+    var y=150;
+    document.write(x+y);
+}
+arrow();
+// call back function
+function f1(u){
+    var x=180;
+    var y=170;
+    document.write("sum of two numbers " + (x+y)+" ");
+    u();
+}
+function f2(){
+    var x2=280;
+    var y2=250;
+    document.write("substraction of two numbers "+(x2-y2));
+   
+}
+f1(f2()); // f2 is a call back function
+// f1 is a high oredred function
