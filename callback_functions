@@ -1,0 +1,84 @@
+// foreach function
+// var x=["html","css","java script","bootstrap"];
+// x.forEach(function data(element,Index){
+//     var update = element+"language";
+//     document.write(" "+update);
+// });
+// var details=[{name:"uma",city:"vzg"},{name:"venky",city:"hyd"},{name:"vasu",city:"vzm"}];
+// details.forEach(function(variable,index){
+//     var stored_details=variable.city;
+//     document.write(stored_details);
+// }
+// );
+// map function
+// var val=[10,15,20,25,30,35,40];
+// var data=val.map(function f1(element,index){
+//     var multi=element*100;
+//     return multi;
+// },
+// );
+// document.write(data);
+// filter function
+// var val=[10,15,20,25,30,35,40];
+// var data=val.filter(function f1(element,index){
+//     var cond=element>30;
+//     return cond;
+// },
+// );
+// document.write(data);
+// filter function
+// var product=[
+//     {
+//     brand:"apple",
+//     model:"Iphone 15 max",
+//     price:120000,
+//     rate:{
+//         rating:4.5,
+//         count:102
+//     }
+// },
+// {
+//     brand:"apple",
+//     model:"Iphone 17 max",
+//     price:180000,
+//     rate:{
+//         rating:4.7,
+//         count:115
+//     }
+// },
+// {
+//     brand:"samsung",
+//     model:"A55 galaxy",
+//     price:80000,
+//     rate:{
+//         rating:4,
+//         count:100
+//     }
+// },
+// {
+//     brand:"vivo",
+//     model:"A55 galaxy",
+//     price:85000,
+//     rate:{
+//         rating:4.8,
+//         count:100
+//     }
+// }
+// ];
+// var product_details=product.filter(function f1(element,index){
+    
+//     var b_details=(element.price>=100000);
+//     return b_details;
+// });
+// document.write(product_details);
+// function getDetails(){
+// var p_details=product.filter(function f1(element,index){
+
+//  return   element.price>=50000;
+ 
+
+// });
+// document.write(p_details);
+
+// };
+// getDetails();
