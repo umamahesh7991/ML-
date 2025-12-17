@@ -1,0 +1,8 @@
+var users=[101,"hello",true,{id:101,uname:"s1",address:{city:["hyd"]}}];
+// document.write(users[3].address.city[1]);
+// var arr_data=users[3];
+// arr_data.address.city.splice(1,1);
+// document.write(users[3].address.city.splice(1,1));
+users[3].address.city.splice(1,0,"bangolore");
+users[3].address.city.splice(0,1,"Sec");
+document.write(users[3].address.city);
