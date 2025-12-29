@@ -22,3 +22,9 @@ while(x<=90){
     document.write(" "+x);
     x=x+2;
 }
+
+// for loop
+for(x=50;x<=80;x++){
+    document.write(" "+x);
+}
+
