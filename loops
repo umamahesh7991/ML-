@@ -1,0 +1,24 @@
+// while loop
+var x=1;
+while(x<11){
+
+    document.write(" "+x);
+        x=x+1;
+};
+
+// do while
+var y=100;
+do{
+    document.write(" "+y);
+    y=y-1;
+
+}
+while(y>20);
+
+// 70 to 90 even numbers
+
+var x=70;
+while(x<=90){
+    document.write(" "+x);
+    x=x+2;
+}
