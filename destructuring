@@ -1,0 +1,35 @@
+//Destructing
+// var arr=[10,20,30,40,50];
+// var[a,b,c,x,y]=arr;
+// document.write(x);
+// var emp={
+//         empname:"mahesh",
+//         gender:"male",
+//         city:"vsp",
+//         phone:90109608
+// };
+// var{address,mob}=emp;
+// function f1(){
+//         document.write(mob);
+// }
+// f1();
+// function f1(){
+//         var data=["hello dude",()=>{
+//                 document.write(" "+"hiiii");
+//         }
+//         ];
+//         return data;
+// }
+// var[x,y]=f1();
+// document.write(x);
+// y();
+// ---
+// function getdata(...x){
+//         document.write(x);
+// };
+// getdata(10,20,30,40,50);
+// // ---
+// function getdata(a,...x){
+//         document.write(a,x);
+// };
+// getdata(10,20,30,40,50);
