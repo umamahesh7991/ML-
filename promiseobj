@@ -1,0 +1,18 @@
+var promiseobj=new Promise((resolve,reject)=>{
+// resolve("xyz");
+// resolve(100);
+// resolve(false);
+// resolve({name:"mahesh", age:27});
+// resolve([10,20,30,40,50,60]);
+// resolve([{name:"uma"},{age:28},{job:"se"}]);
+// reject("failed");
+reject(100);
+})
+promiseobj.then((successdata)=>{
+        document.write(successdata);
+        document.write(" "+"successdata");
+}),
+promiseobj.catch((errordata)=>{
+        document.write(errordata);
+        document.write(" "+"error data");
+})
