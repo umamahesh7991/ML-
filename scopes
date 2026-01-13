@@ -1,0 +1,13 @@
+ function f1(){
+       let price=5678;
+       var name="groceries";
+        document.write("f1 is called");
+if(true){
+               var pin=123;
+                let gender="male";
+                         document.write(" - "+"block code executed");
+         document.write(pin,gender)
+}                document.write(" _ "+price,name);
+
+}
+ f1();
