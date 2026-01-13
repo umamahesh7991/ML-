@@ -16,3 +16,27 @@ promiseobj.catch((errordata)=>{
         document.write(errordata);
         document.write(" "+"error data");
 })
+
+---------
+
+function f1(){
+        return  new Promise((resolve,reject)=>{
+                // resolve({ok:true, result:[{name:"mahesh"},{name:"abc"}]});
+                // document.write("success");
+                 reject({ok:true, result:[{name:"mahesh"},{name:"abc"}]});
+                // document.write("error");
+                
+        });
+}
+var promiseobj=f1();
+// promobj.then((successdata)=>{
+//         document.write(promobj);
+// });
+// promobj.catch((errordata)=>{
+//         document.write("error data");
+// })
+async function fun(){
+        let data=await f1();
+document.write(data);
+};
+fun();
