@@ -1,0 +1,19 @@
+function createfun(){
+        return new Promise((resolve,reject)=>{
+                // resolve({ok:true,result:"something went wrong"});
+                reject(" "+"1234");
+        });
+};
+// var promiseobj=createfun();
+async function try_cat() {
+        try{
+                var res=await createfun();
+                document.write("try block");
+                document.write(res)
+        }
+        catch(data){
+document.write("error data");
+document.write(data);
+        }
+        
+}
