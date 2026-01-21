@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="flex.css">
+    </head>
+    <body>
+        <div id="container">
+<div id="col1">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/3dbe4c89fbf0003d.png?q=100">
+    <p>Minutes</p>
+</div>
+<div id="col2">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/cd6aca4f61e8ea95.png?q=100">
+     <p>Mobiles</p>
+</div>
+<div id="col3">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/9c64dfa667885ca9.png?q=100">
+     <p>Tv & Appliances</p>
+</div>
+<div id="col4">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/4d6b13d5a0e0724a.png?q=100">
+     <p>Electronic</p>
+</div>
+<div id="col5">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/ec2982e5564fe07c.png?q=100">
+     <p>Fashion</p>
+</div>
+<div id="col6">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/febcb9896245caf4.png?q=100">
+     <p>Home Applilance & kitchen</p>
+</div>
+<div id="col7">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/3d7144345bbcf2e4.png?q=100">
+     <p>Beauty & Toys</p>
+</div>
+<div id="col8">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/cddd92e134ba3ea9.png?q=100">
+     <p>Furniture</p>
+</div>
+<div id="col9">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/d9eea6cd0e7b68bb.png?q=100">
+     <p>Flight Bookings</p>
+</div>
+<div id="col10">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/2ebb95ec20eae8f1.png?q=100">
+     <p>Travels</p>
+</div>
+        </div>
+        <div id="container2">
+<div id="row1">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/bc43b7fa7bfe6e0d.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/bd31c8f12ab4f72d.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/ebdb4531357c9328.png?q=80">
+</div>
+<div id="row2">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/bc43b7fa7bfe6e0d.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/bd31c8f12ab4f72d.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/ebdb4531357c9328.png?q=80">
+</div>
+<div id="row3">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4e227459eb7293a8.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/740d70f9ca778598.jpg?q=80">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/b99ec21a753d04a3.jpg?q=80">
+</div>
+        </div>
+    </body>
+    </html>
+
+
+
+    /* body{
+    margin: 0px;
+} */
+
+#container{
+    /* border: 2px solid red;
+    height:200px; */
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+div img{
+    height: 110px;
+    padding: 10px 10px;
+}
+#col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 600px;
+}
+#row1{
+height: 200px;
+/* border: 2px solid blue; */
+display: flex;
+flex-direction: row;
+
+}
+#row1 img{
+    width: 100%;
+    height: 180px;
+}
+#row2{
+    height:200px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+
+}
+#row2 img{
+    width: 100%;
+    height: 180px;
+}
+#row3{
+    height: 200px;
+    /* border: 2px solid blue; */
+     display: flex;
+    flex-direction: row;
+
+}
+#row3 img{
+    width: 100%;
+    height: 180px;
+}
