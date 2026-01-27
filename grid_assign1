@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        #container{
+            height: 350px;
+            width:300px;
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: 130px 80px 80px 130px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 10px;
+        }
+        #item1{
+            background-color: green;
+            grid-column: 1/2;
+            grid-row: 1/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+           #item2{
+            background-color: green;
+            grid-column: 2/4;
+            grid-row: 1/2;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+           #item3{
+            background-color: brown;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+           #item4{
+            background-color: rgb(126, 126, 7);
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+          #item5{
+            background-color: red;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+          #item6{
+            background-color: coral;
+            grid-column: 4/5;
+            grid-row: 2/4;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+          #item7{
+            background-color: darkgoldenrod;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+           #item8{
+            background-color: dimgray;
+             display: grid;
+            justify-content: center;
+            align-items: center;
+            /* height: 100px; */
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="item1">item1</div>
+            <div id="item2">item2</div>
+            <div id="item3">item3</div>
+            <div id="item4">item4</div>
+            <div id="item5">item5</div>
+            <div id="item6">item6</div>
+            <div id="item7">item7</div>
+            <div id="item8">item8</div>
+
+            </div>
+    </body>
+</html>
