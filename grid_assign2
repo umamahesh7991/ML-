@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #container{
+                height: 600px;
+                width:600px;
+                /* border: 2px solid red; */
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                grid-row: 200px 200px 200px ;
+                gap:15px
+            }
+            #item1{
+                display: grid;
+                grid-column: 1/4;
+                grid-row: 1/2;
+                background-color: aqua;
+                justify-content: center;
+                align-items: center;
+                /* width: 600px; */
+                /* height: 80px; */
+            }
+            #item2{
+                display: grid;
+                grid-column: 1/2;
+                grid-row: 2/4;
+                background-color: aquamarine;
+                justify-content: center;
+                align-items: center;
+            }
+            #item3{
+                display: grid;
+                grid-column: 2/4;
+                grid-row: 2/3;
+                background-color: blueviolet;
+                 justify-content: center;
+                align-items: center;
+            }
+            #item4{
+                display: grid;
+                grid-column: 2/3;
+                grid-row: 3/4;
+                background-color: cadetblue;
+                 justify-content: center;
+                align-items: center;
+            }
+            #item5{
+                display: grid;
+                grid-column: 3/4;
+                grid-row: 3/4;
+                background-color: chocolate;
+                 justify-content: center;
+                align-items: center;
+            }
+             #item6{
+                display: grid;
+                grid-column: 1/4;
+                grid-row: 4/5;
+                background-color: chocolate;
+                 justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="item1">Header</div>
+            <div id="item2">Side Bar</div>
+            <div id="item3">Content1</div>
+            <div id="item4">Content2</div>
+            <div id="item5">Content3</div>
+            <div id="item6">Footer</div>
+        </div>
+    </body>
+    </html>
