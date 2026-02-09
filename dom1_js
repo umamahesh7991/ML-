@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <style>
+            body{
+                height: 100vh;
+                color: aliceblue;
+            }
+        </style> --> 
+<script>
+    function dom(){
+        var h2dom=document.querySelector("h2");
+        var pdom=document.querySelector("p");
+        var btndom=document.querySelector("button");
+        h2dom.innerText="h2 dom element accessed";
+        pdom.innerText=" pdom element accessed";
+        btndom.innerText="Modified";
+        document.write("----------------");
+        for( let x in pdom){
+            document.write(x + " ");
+        }
+    }
+</script>
+    </head>
+    <body>
+        <h2>Dom Element</h2>
+        <p>A DOM (Document Object Model) element is any HTML tag in a web page that JavaScript can access and manipulate</p>
+        <button onclick="dom()">More Info</button>
+    </body>
+</html>
