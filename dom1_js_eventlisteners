@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <script>
+        function dom(){
+        var htmldom=document.getElementById("html");
+        var cssdom=document.getElementById("css");
+        var jsdom=document.getElementById("js");
+htmldom.innerText="HTML";
+cssdom.innerText="CSS";
+jsdom.innerText="JAVA SCRIPT";
+        }
+         function dom1(){
+        var htmldom=document.getElementById("html");
+        var cssdom=document.getElementById("css");
+        var jsdom=document.getElementById("js");
+htmldom.innerText="hyper text markup language";
+cssdom.innerText="Case cading style sheet";
+jsdom.innerText="Java Script";
+        }
+       </script>
+    </head>
+    <body>
+       <ol type="A" onmouseenter="dom()" onmouseleave="dom1()">
+        <li id="html">html</li>
+        <li id="css">css</li>
+        <li id="js">java script</li>
+       </ol>
+       <button onclick="dom()">Submit</button>
+    </body>
+</html>
