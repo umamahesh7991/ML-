@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            function btndom(){
+           var btndom=document.getElementById("Submit");
+           var inpdom=document.getElementById("password");
+           
+
+           if(inpdom.type==="password"){
+            inpdom.type="text";
+            btndom.innerText="Hide";
+
+           }
+           else{
+            inpdom.type="password";
+            btndom.innerText="show"
+           }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>show/hide password</h2>
+        <input type="password" id="password">
+        <button id="Submit" onclick="btndom()">show</button>
+    </body>
+    </html>
