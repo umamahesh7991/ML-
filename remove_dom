@@ -1,0 +1,102 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            function btndom(){
+           var btndom=document.getElementById("Submit");
+           var inpdom=document.getElementById("password");
+           
+
+           if(inpdom.type==="password"){
+            inpdom.type="text";
+            btndom.innerText="Hide";
+
+           }
+           else{
+            inpdom.type="password";
+            btndom.innerText="show"
+           }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>show/hide password</h2>
+        <input type="password" id="password">
+        <button id="Submit" onclick="btndom()">show</button>
+    </body>
+    </html> -->
+    <!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function showHidePassword() {
+        var inputDomElement = document.querySelector("input");
+        var buttonDom = document.querySelector("button");
+
+        if (inputDomElement.type === "password") {
+          inputDomElement.type = "text";
+          buttonDom.innerText = "Hide Password";
+        } else {
+          inputDomElement.type = "password";
+          buttonDom.innerText = "Show Password";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Show/Hide Password</h2>
+    <input type="password" placeholder="password" />
+    <button onclick="showHidePassword()">Show Password</button>
+  </body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+<script>
+    function dom(){
+    var divdom = document.createElement("div");
+    divdom.innerText="js is super easy language";
+    document.write(divdom);
+    var image = document.createElement("img");
+     image.src="https://documents.bcci.tv/resizedimageskirti/1125_compress.png";
+    var bodydom = document.getElementById("body");
+    bodydom.appendChild(divdom);
+    bodydom.appendChild(image);
+    }
+    </script>
+    </head>
+    <body>
+        <h2>adding dom element</h2>
+        <p>The addition of a DOM element means creating a new HTML element and inserting it into the webpage using JavaScript</p>
+        <button onclick="dom()">click</button>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+    <head>
+       <script>
+        function remove(){
+         var h2dom = document.getElementById("h2");
+         h2dom.remove();
+        }
+        function adddom(){
+         var h2dom = document.createElement("div");
+         var bodydom = document.querySelector("body");
+
+         var newele=bodydom.appendChild(h2dom);
+         newele.innerText="div element";
+         document.write(newele);
+        }
+       </script>
+    </head>
+    <body>
+        <h2 id="h2">h2 element</h2>
+         <h3 id="h3">h3 element</h3>
+          <h4 id="h4">h4 element</h4>
+          <button id="added" onclick="adddom()">added</button>
+          <button id="remove" onclick="remove()">remove</button>
+    </body>
+</html>
