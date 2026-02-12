@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="https://unpkg.com/react@18/umd/react.development.js" ></script>
+         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" ></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            //react code
+           var h1reaele = React.createElement("h1",null,"Welcome to React");
+           ReactDOM.render(h1reaele,document.getElementById("root"));
+           var h2reaele = React.createElement("h2",null,"Hello User!");
+           ReactDOM.render(h2reaele,document.getElementById("root"));
+           var h3reaele = React.createElement("h3",null,"The Journey Of Thousand Miles starts with One step");
+           ReactDOM.render(h3reaele,document.getElementById("root"));
+           var h4reaele = React.createElement("h4",null,"42");
+           ReactDOM.render(h4reaele, document.getElementById("root"));
+           var h5reaele = React.createElement("h5",null,"React is Awesome!");
+           ReactDOM.render(h5reaele,document.getElementById("root"));
+           var h6reaele=React.createElement("h6",null,"Keep Coding and Stay Positive!");
+           ReactDOM.render(h6reaele, document.getElementById("root"));
+           var btnreaele = React.createElement("button",null,"click me");
+           ReactDOM.render(btnreaele, document.getElementById("root"));
+           var imgreaele = React.createElement("img",{
+            src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhhEusSFOv5u-MuCSwdQbCdCnSwF-Oeq9irWlZyHGftsB2stSdUrQZUQSXkX8vbJQffkPDgOc3OOzQy7jsbslx1A8jo2HKlbQ_-ixUk-F&s=10",
+            width:"500px",
+            height:"500px",
+            alt:"placeholder Image"
+           });
+           ReactDOM.render(imgreaele,document.getElementById("root"));
+           var preaele=React.createElement("p",null,"This is paragraph element");
+           ReactDOM.render(preaele, document.getElementById("root"));
+        var btnreaele =   React.createElement("button",{
+            id:"submitt-button"
+           },"submit");
+           ReactDOM.render(btnreaele,document.getElementById("root"));
+           var imgreaele = React.createElement("img",{
+            src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhhEusSFOv5u-MuCSwdQbCdCnSwF-Oeq9irWlZyHGftsB2stSdUrQZUQSXkX8vbJQffkPDgOc3OOzQy7jsbslx1A8jo2HKlbQ_-ixUk-F&s=10",
+            title:"sample image",
+
+           });
+           ReactDOM.render(imgreaele,document.getElementById("root"));
+           //unorder list
+          var ulreaele= React.createElement("ul",null,
+          React.createElement("li",null,"Item-1"),
+          React.createElement("li",null,"Item-2"),
+          React.createElement("li",null,"Item-3")
+            );
+            ReactDOM.render(ulreaele, document.getElementById("root"));
+
+            var areaele = React.createElement("a",{
+                href:"https://google.com"
+            },"Go To Example");
+            ReactDOM.render(areaele, document.getElementById("root"));
+        var selereaele =    React.createElement("section",null,"section content");
+        ReactDOM.render(selereaele, document.getElementById("root"));
+
+       var preaele = React.createElement("p",null,"welcome to the website");
+       ReactDOM.render(preaele, document.getElementById("root"));
+
+
+            </script>
+    </body>
+</html>
