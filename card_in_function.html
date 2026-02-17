@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+      #id_card{
+        width: 400px;
+        height: 600px;
+        box-shadow: 0px 0px 15px grey;
+        background-color: cadetblue;
+        text-align: center;
+        color: aliceblue;
+      }
+        </style>
+   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+    <script type="text/babel">
+     function card(username,url){
+        return(
+            <div id="id_card">
+               
+                <img src={url} width="400px" height="400px"/>
+                 <h1>{username}</h1>
+                <p>Jr.Software Engineer</p>
+                </div>
+        );
+     }
+     function container(){
+       return(
+        <div style={{display:"flex" , justifycontent :"space-evenly" , gap:"10px"}} >
+            {card("mahesh","C:\\Users\\TT-TRAINING\\Downloads\\shared image_photo (1).jpg")}
+            {card("vamsi","C:\\Users\\TT-TRAINING\\Downloads\\vamsi_pic.jpg")}
+            {card("krishna","C:\\Users\\TT-TRAINING\\Downloads\\krishna_pic.jpg")}
+            {card("rahul","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgEfAGgElFT4SvrJ1g5q3qw0dd3SX9oVpUC3c32llVS4EgOTiMqHeGMDdTxKM2EjpoCqWss8vhm8IFmUNCgLji27az6tOjNxOTFyE83YtU9A&s=10")}
+            </div>
+
+       );
+     }
+    ReactDOM.render(container(),document.getElementById("root"));
+        </script>
+    </body>
+    </html>
